@@ -31,7 +31,7 @@ img.emoji {
   <link href="css/export-wp-page-to-static-html-public.css" rel="stylesheet"/>
   <link href="css/brands.css" rel="stylesheet"/>
   <link href="css/fontawesome.css" rel="stylesheet"/>
-  <link href="css/5377.css" rel="stylesheet"/>
+  <link href="css/8057.css" rel="stylesheet"/>
   <link href="css/style.css" rel="stylesheet"/>
   <link href="css/dashicons.min.css" rel="stylesheet"/>
   <script id="jquery-core-js" src="js/jquery.js" type="text/javascript">
@@ -113,7 +113,7 @@ gtag('js', new Date());
 gtag('config', 'G-45WN5BP4LL');
   </script>
  </head>
- <body>
+ <body class="page-template-default page page-id-259 et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
   <div id="page-container">
    <header data-height-onload="66" id="main-header">
     <div class="container clearfix et_menu_container">
@@ -143,7 +143,7 @@ gtag('config', 'G-45WN5BP4LL');
            </a>
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174" id="menu-item-174">
-           <a href="https://www.jasonwoitalla.com/projects/ludum-dare/">
+           <a href="https://www.jasonwoitalla.com/ludum-dare/">
             Ludum Dare
            </a>
           </li>
@@ -153,7 +153,7 @@ gtag('config', 'G-45WN5BP4LL');
            </a>
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-259 current_page_item menu-item-264" id="menu-item-264">
-           <a aria-current="page" href="https://www.jasonwoitalla.com/259-2/">
+           <a aria-current="page" href="https://www.jasonwoitalla.com/sentence-analyzer/">
             Sentence Analyzer
            </a>
           </li>
@@ -213,16 +213,16 @@ gtag('config', 'G-45WN5BP4LL');
                <p>
                 This is a simple page I developed for an English class I once took. The goal of this tool is to analyze the input essay and give data about the text. This tool will tell you how many sentences your essay has and create a plot of sentence number vs sentence word length. The goal of that is to see how varied the sentence length of an essay is. Not a lot of development has been spent on the tool but it’s a neat informative tool that could easily be expanded in the future.
                </p>
+
                <textarea cols="100" id="essay" row="10" style="width: 100%; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">Enter Essay Text Here</textarea>
                <br/>
                <button onclick="analyze()">
                 Analyze
                </button>
                <br/>
-               <div id="graphResults" style="height:300px; width:100%;">
-               </div>
-               <div id="results">
-               </div>
+               <div id="graphResults" style="height:300px; width:100%;"></div>
+               <div id="results"></div>
+
               </div>
              </div>
              <!-- .et_pb_text -->
@@ -293,7 +293,7 @@ gtag('config', 'G-45WN5BP4LL');
    /* <![CDATA[ */
 var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
 var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
-var et_pb_custom = {"ajaxurl":"http:\/\/localhost\/jasonwoitalla\/website\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/localhost\/jasonwoitalla\/website\/wp-content\/themes\/Divi\/images","builder_images_uri":"http:\/\/localhost\/jasonwoitalla\/website\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"7e94a812c8","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"c2356549c3","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"259","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"http:\/\/localhost\/jasonwoitalla\/website\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/localhost\/jasonwoitalla\/website\/wp-content\/themes\/Divi\/images","builder_images_uri":"http:\/\/localhost\/jasonwoitalla\/website\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"d21e6ea2a1","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"5c5f482de4","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"259","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
 var et_pb_box_shadow_elements = [];
 var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
 var et_pb_sticky_elements = [];
